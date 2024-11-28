@@ -989,7 +989,18 @@ footer .col{
      margin-bottom: 20px;
      width: 45%;
 }
-
+#banner3 .banner-box h2 {
+    font-size: 20px;
+}
+/* blog page  */
+#blog .blog-details h4{
+    font-size: 20px;
+    width: 100%;
+}
+#blog .blog-details p{
+    font-size: 18px;
+    width: 380px;
+}
 /* contact page  */
 
 #form-details {
@@ -1063,6 +1074,19 @@ footer .col{
     footer .copyright {
         text-align: start;
     }
+    #newsletters input{
+        padding: 10px;
+        width: 220px;
+    }
+    #newsletters button{
+        padding: 10px;
+    }
+    .icon {
+        width: 100%;
+    }
+    footer .col {
+        width: 100%;
+    }
 
     /* singal product page  */
 
@@ -1081,15 +1105,27 @@ footer .col{
 
     /* blog page  */
     #blog {
-        padding: 100pxx 20px 0px 20px;
+        padding: 100px 20px 0px 20px;
     }
     #blog .blog-img{
         width: 100%;
         margin-right: 0px;
-        margin-bottom: 30px;
+        height: 50%;
+        /* margin-bottom: 30px; */
     }
     #blog .blog-details {
         width: 100%;
+    }
+    #blog .blog-box{
+        flex-direction: column;
+    }
+    #blog .blog-details h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    #blog .blog-details p{
+        font-size: 15px;
+        width: 300px;
     }
     
 
